@@ -1,4 +1,4 @@
-// ArticulationPoint_Bridge (Offline) - O(N + M)
+// ArticulationPoints_Bridges (Offline) - O(N + M)
 
 #include <bits/stdc++.h>
 
