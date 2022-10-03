@@ -1,3 +1,5 @@
+// Binary Exponentiation - A^B%M - O(logB)
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -21,7 +23,6 @@ using vpl = vector<pll>;
 #define nl '\n'
 #define dg(x) cerr << #x << " = " << x << endl
 
-// Binary Exponentiation - A^B%M - O(logB)
 long long binpow(long long a, long long b, long long m) {
     a %= m;
     long long res = 1;
