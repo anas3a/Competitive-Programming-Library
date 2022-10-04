@@ -44,7 +44,7 @@ void BellmanFord(int s, int n, int m)
         {
             if (d[e[j].a] < LLONG_MAX && d[e[j].b] > d[e[j].a] + e[j].cost)
             {
-                d[e[j].b] = d[e[j].a] + e[j].cost;
+                d[e[j].b] = max (-LLONG_MAX, d[e[j].a] + e[j].cost);
                 p[e[j].b] = e[j].a;
                 x = e[j].b;
             }
